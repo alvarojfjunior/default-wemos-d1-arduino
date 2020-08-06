@@ -5,8 +5,8 @@
 
 #include <ESP8266WiFi.h>
 //CONFIGURAÇÕES DE WIFI, SERVIDOR, E CONTROLES BÁSICOS
-const char* ssid = "NAO FUNCIONA";
-const char* password = "@thaty42@";
+const char* ssid = "SSID_WIFI_NETWORK";
+const char* password = "PASS_WIFI_NETWORK";
 int ledPin = LED_BUILTIN;
 WiFiServer server(80);
 
